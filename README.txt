@@ -1,13 +1,15 @@
-虎尾生物科技有限公司｜一頁式企業網站
+虎尾生物科技有限公司 一頁式企業網站
 
-使用方式：直接以瀏覽器開啟 index.html 即可預覽。
-Apache 部署：將 index.html 和 assets 資料夾一起上傳至網站根目錄（例如 htdocs）。
-不需要 npm、Node.js、資料庫、後端或 AI 平台。
+檔案：
+index.html            網站入口
+assets/style.css      RWD 樣式
+assets/script.js      手機選單、年份、聯絡表單
 
-修改位置：
-- 公司與產品文字：index.html
-- 版面配色與 RWD：assets/css/style.css
-- 手機選單：assets/js/main.js
-- 電子郵件：將 index.html 的 hello@example.com 替換為正式公司信箱。
+使用方式：直接雙擊 index.html 即可開啟。
+Apache 部署：將 index.html 與 assets 資料夾一同上傳到網站根目錄（例如 htdocs）。
 
-注意：目前產品圖像使用 CSS 製作示意插畫，不是實際商品照片；產品資訊為形象展示文案，請上線前核實。
+注意：
+1. 請修改 assets/script.js 中 CONTACT_EMAIL 為正式信箱，聯絡表單會啟動訪客預設郵件軟體，不會直接寄信。
+2. 網站中的產品圖為 CSS 示意圖，並非實際商品照片。
+3. 品牌介紹、產品名稱及最新消息為示範文案，正式上線前請核對。
+4. 全站不需要 Node.js、React、Next.js、資料庫、後端或 AI 平台；不使用外部圖片、字型與 CDN。
